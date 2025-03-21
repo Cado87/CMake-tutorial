@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\adric\Documents\Importante\Aprendizagem\CMake-tutorial\cmake-4.0.0-rc5-tutorial-source\Step1\tutorial.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\adric\Documents\Importante\Aprendizagem\CMake-tutorial\cmake-4.0.0-rc5-tutorial-source\Step1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D102E564-93BE-3E54-8B9D-F56909E42E4D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

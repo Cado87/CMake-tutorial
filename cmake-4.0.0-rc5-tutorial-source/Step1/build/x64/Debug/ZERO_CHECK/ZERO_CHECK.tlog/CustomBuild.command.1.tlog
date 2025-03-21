@@ -1,0 +1,10 @@
+^C:\USERS\ADRIC\DOCUMENTS\IMPORTANTE\APRENDIZAGEM\CMAKE-TUTORIAL\CMAKE-4.0.0-RC5-TUTORIAL-SOURCE\STEP1\BUILD\CMAKEFILES\E54BA2270F2EA8C2854828853652784C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/adric/Documents/Importante/Aprendizagem/CMake-tutorial/cmake-4.0.0-rc5-tutorial-source/Step1 -BC:/Users/adric/Documents/Importante/Aprendizagem/CMake-tutorial/cmake-4.0.0-rc5-tutorial-source/Step1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/adric/Documents/Importante/Aprendizagem/CMake-tutorial/cmake-4.0.0-rc5-tutorial-source/Step1/build/Tutorial.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
